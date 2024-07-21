@@ -1,7 +1,8 @@
 import time
 
 
-def countdown_timer(remaining_time):
+def countdown_timer(remaining_time : int) -> str :
+    
     for x in range(remaining_time,0,-1):
         secs = x % 60
         minutes = int(x / 60) % 60
@@ -12,7 +13,7 @@ def countdown_timer(remaining_time):
     print("TIME'S UP")
     
 
-def main():
+def main() -> None:
     my_time = int(input("enter the time inseconds"))
     countdown_timer(my_time)
     
