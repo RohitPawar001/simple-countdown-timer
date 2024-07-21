@@ -11,3 +11,11 @@ This simple countdown timer is a simple project yet it is worth mentioning becau
 
 
 # Description 
+The script prompts the user to enter a countdown time in seconds.<br>
+It then counts down from the specified time, updating the display every second.<br>
+When the countdown reaches zero, it prints “TIME’S UP”.
+
+# Resoures
+python :- https://www.python.org/
+<br>
+time module :- https://docs.python.org/3/library/time.html
